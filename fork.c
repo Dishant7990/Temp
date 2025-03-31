@@ -5,6 +5,7 @@
 #include <sys/fcntl.h>
 #include <sys/stat.h>
 
+/* Main */
 int main()
 {
     char path[100];
