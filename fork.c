@@ -8,6 +8,7 @@
 /* Main */
 int main()
 {
+	/* This is Changed Line */
     char path[100];
     struct stat stats;
 
