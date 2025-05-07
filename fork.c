@@ -49,13 +49,16 @@ int main()
     {
         
         printf("Hello From Child.\n");
+
+
+        
         execlp("ping", "ping","-c", "2", "google.com", NULL);
         printf("This line will not print.\n");
         exit(0);
     }
 
     printf("Hello From Parents.\n");
-    
+
     sleep(1);
     waitpid(pid, NULL, 0);
     printf("Exiting From Program....\n\n");
